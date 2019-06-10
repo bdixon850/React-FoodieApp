@@ -21,8 +21,8 @@ class Recipe extends Component {
         const recipe = this.state.activeRecipe;
         return (
             <div>
-                <header className="header">
-                    <h1 className="title">Foodie</h1>
+                <header className="App-header">
+                    <h1 className="App-title">Foodie</h1>
                 </header>
                 <div style={{backgroundImage: `url(${recipe.image.url})`, height: '300px', backgroundSize: '100%', marginTop: '-2rem', opacity: '.6', backgroundPositionY: 'center'}} />
                 <div className="container">
