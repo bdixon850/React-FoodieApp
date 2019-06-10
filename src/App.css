@@ -25,11 +25,11 @@ button:focus {
 }
 
 .App-header {
-  background-color: #f34747;
+  background-color: darkred;
   height: 90px;
   color: white;
   margin-bottom: 2rem;
-  border-bottom: solid 5px rgba(142, 31, 31, 0.55);
+  border-bottom: solid red;
   text-align: center
 }
 
@@ -84,7 +84,7 @@ button:focus {
 }
 
 .form__button {
-  border: solid 2px #e74c3c;
+  border: darkred;
   background: transparent;
   padding: 0.2rem 0.9rem;
   margin: 0 0.2rem;
@@ -147,7 +147,7 @@ input:-webkit-autofill {
 }
 
 button{
-  background: #f24846;
+  background: darkred;
   color: #000;
   border: none;
   position: relative;

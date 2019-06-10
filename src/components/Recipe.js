@@ -22,7 +22,7 @@ class Recipe extends Component {
         return (
             <div>
                 <header className="App-header">
-                    <h1 className="App-title">Foodie</h1>
+                    <h1 className="App-title">Good Eats</h1>
                 </header>
                 <div style={{backgroundImage: `url(${recipe.image_url})`, height: '300px', backgroundSize: '100%', marginTop: '-2rem', opacity: '.6', backgroundPositionY: 'center'}} />
                 <div className="container">
